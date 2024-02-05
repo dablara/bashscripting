@@ -110,14 +110,3 @@ class wpdb {
   }
 
 }
-
-// **Configuración de la base de datos**
-
-$host = '192.168.52.15';
-$user = 'Daniel';
-$password = 'Root1234$';
-$database = 'wordpress';
-
-// **Crear una instancia de la clase wpdb**
-
-$wpdb = new wpdb($host, $user, $password, $database);
